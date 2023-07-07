@@ -1,0 +1,137 @@
+/* Estilos para todo el proyecto */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("https://img.freepik.com/vector-premium/diseno-fondo-dorado-lujo_483364-1066.jpg?w=900");
+    background-repeat: repeat;
+    
+    
+}
+
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #007bff;
+}
+
+.img {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(228, 96, 96);
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    
+}
+
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid rgb(77, 83, 88);
+    border-radius: 5px;
+    background-color: #777879;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.social-media a{
+   align-content: center; 
+   display: inline;
+   margin-left: 10px;
+   transition: .5s ease;
+ }
+
+ .social-media a:hover{
+    background:#4d6aec ;
+    color: #2ded8d;
+    box-shadow: 0 0 20px #A084DC;
+    scale: 1.4;
+    
+}
+
+button {
+    padding: 8px;
+    margin:4px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+a{
+    padding: 8px;
+    margin:4px;
+    background-color: #22201e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 100%; 
+}
+td > a {
+    padding: 8px;
+    margin:4px;
+    background-color: #fdab13;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+td>a:hover {
+    background-color: #cd7b00;
+}
